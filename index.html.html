@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Daily Chores</title>
+</head>
+<body>
+    <h1 class="title">Daily Chores Tracker</h1>
+    <form id="choresForm">
+        <h2>Select your chores:</h2>
+        <label>
+            <input type="checkbox" name="chores" value="cleaning"> Cleaning
+        </label><br>
+        <label>
+            <input type="checkbox" name="chores" value="shopping"> Shopping
+        </label><br>
+        <label>
+            <input type="checkbox" name="chores" value="laundry"> Laundry
+        </label><br>
+        
+        <h2>Choose your priority level:</h2>
+        <label>
+            <input type="radio" name="priority" value="high"> High
+        </label><br>
+        <label>
+            <input type="radio" name="priority" value="medium"> Medium
+        </label><br>
+        <label>
+            <input type="radio" name="priority" value="low"> Low
+        </label><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="currentTime"></div>
+    <script src="script.js"></script>
+</body>
+</html>
